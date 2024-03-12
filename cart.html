@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="cart.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+     <!--navbar starts here-->
+  <nav>
+    <ul class="nav-upper
+    flex-space-around
+    ">
+      <li class="nav-list">
+        <a href="index.html" class="nav-link">Home</a>
+      </li>
+      <li class="nav-list">
+        <a href="product.html" class="nav-link">Product</a>
+      </li>
+      <li class="nav-list">
+        <a href="register.html" class="nav-link">Regsiter</a>
+      </li>
+      <li class="nav-list">
+        <a href="login.html" class="nav-link">Login</a>
+      </li>
+      <li class="nav-list">
+        <a href="index.html" class="nav-link">Logout</a>
+      </li>
+      <li class="nav-list">
+        <a href="contract.html" class="nav-link">contract</a>
+      </li>
+      <li class="nav-list">
+        <a href="profile.html" class="nav-list">
+          <img class="profile-icon" src="IMG20230328220705.jpg" alt="profile-icon" />
+        </a>
+    </ul>
+    <ul class="nav-lower
+    flex-space-around">
+      <li class="nav-list">
+        <a class="nav-brand nav-link" href="/index.html"> CodeCraftersNadib </a>
+      </li>
+      <li class="nav-list">
+        <a class="nav-brand nav-link" href="cart.html">
+          <samp><i class="fa-solid fa-cart-shopping"></i></samp>
+          cart 2 product--$123.10
+        </a>
+      </li>
+    </ul>
+
+  </nav>
+  <!--nav end here -->
+
+<main>
+    <div class="main_class">
+        <div class="div1">
+            <!--start header section-->
+            <div class="cart-items-heading card">
+            <h2>shopping Cart [2 items]</h2>
+            <div class="cart-items-action">
+                <label for="select">
+                    <input type="chackbox"
+                     name="select"
+                      id="select"/>
+                    select all items
+                </label>
+                <button class="button">
+                    <i class="fas fa-trash-alt"></i>
+                </button>
+                <button calass="button">Shop More</button>
+            </div>
+           </div>  
+           <!--end hearder secton-->
+         
+           <!--start product one-->
+
+        <div class="cart-item card  flex-space-around">
+            <input type="checkbox">
+            <img src="images.png" alt="product"
+              class="ca rt-item-img"/>
+             <div class="cart-item-description">
+                <h3 class="product-name">Green logo</h3>
+                <h4 class="product-price">price:$100.29</h4>
+                <p class="cart-item-shipping">Free Shipping</p>
+             </div>
+            <div class="cart-item-action">
+                <button class="button">
+                    <i class="fas fa-trash-alt"></i>
+                </button>
+             </div>
+             <div>
+                <button class="button">
+                    <i class="fas fa-add"></i>
+                </button>
+                <span>3</span>
+                <button class="button">
+                    <i class="fas fa-minus"> </i>
+                </button>
+             </div>
+         </div>
+           <!--End product one-->
+           <!--start product two-->
+
+
+         <div class="cart-item card  flex-space-around">
+            <input type="checkbox">
+            <img src="images.png" alt="product"
+              class="ca rt-item-img"/>
+             <div class="cart-item-description">
+                <h3 class="product-name">Green logo</h3>
+                <h4 class="product-price">price:$100.29</h4>
+                <p class="cart-item-shipping">Free Shipping</p>
+             </div>
+            <div class="cart-item-action">
+                <button class="button">
+                    <i class="fas fa-trash-alt"></i>
+                </button>
+             </div>
+             <div>
+                <button class="button">
+                    <i class="fas fa-add"></i>
+                </button>
+                <span>3</span>
+                <button class="button">
+                    <i class="fas fa-minus"> </i>
+                </button>
+             </div>
+         </div>
+           <!--End product two-->
+           <!--start product tree-->
+
+
+         <div class="cart-item card  flex-space-around">
+            <input type="checkbox">
+            <img src="images.png" alt="product"
+              class="ca rt-item-img"/>
+             <div class="cart-item-description">
+                <h3 class="product-name">Green logo</h3>
+                <h4 class="product-price">price:$100.29</h4>
+                <p class="cart-item-shipping">Free Shipping</p>
+             </div>
+            <div class="cart-item-action">
+                <button class="button">
+                    <i class="fas fa-trash-alt"></i>
+                </button>
+             </div>
+             <div>
+                <button class="button">
+                    <i class="fas fa-add"></i>
+                </button>
+                <span>3</span>
+                <button class="button">
+                    <i class="fas fa-minus"> </i>
+                </button>
+             </div>
+         </div>
+            <!--End product tree-->
+         
+        </div>
+        <!--start payment section right-->
+        <div class="div2">
+            <div class="cart-paymant">
+                <div class="cart-payment-summary card"></div>
+                <h2>Payment-summary</h2>
+              </div>
+              <div>
+                <p class="shipp">Shipping Cost</p>
+                <p class="price">$2.50</p>
+                <div>
+                  <p>Total Cost</p>
+                  <p>$344.38</p>
+                </div>
+                <button class="button cart_paymant-button">pay Now</button>
+              </div>
+              <div class="cart-paymant-methods">
+                <h2>Payment Methods</h2>
+                <div>
+                  <i class="fa-brands fa-cc-visa fa-3x"></i>
+                  <i class="fa-brands fa-cc-amazon fa-3x"></i>
+                  <i class="fa-brands fa-cc-amex fa-3x"></i>
+                  <i class="fa-brands fa-cc-apple-pay fa-3x"></i>
+                  <i class="fa-brands fa-cc-paypal fa-3x"></i>
+                </div>
+              </div>
+       
+            </div>
+            <!--payment end-->
+        
+      </div><!--main div -->
+ </main>
+
+    
+</body>
+</html>
